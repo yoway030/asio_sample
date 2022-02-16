@@ -1,0 +1,2265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spdlog\cfg\argv.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\cfg\env.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\cfg\helpers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\cfg\helpers-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\backtracer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\backtracer-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\circular_q.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\console_globals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\file_helper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\file_helper-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\fmt_helper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\log_msg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\log_msg_buffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\log_msg_buffer-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\log_msg-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\mpmc_blocking_q.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\null_mutex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\os.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\os-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\periodic_worker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\periodic_worker-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\registry.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\registry-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\synchronous_factory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\tcp_client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\tcp_client-windows.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\thread_pool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\thread_pool-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\details\windows_include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\args.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\chrono.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\color.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\compile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\core.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\format.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\format-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\locale.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\os.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\ostream.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\printf.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\ranges.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bundled\xchar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\bin_to_hex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\chrono.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\compile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\fmt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\ostr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fmt\xchar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\android_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\ansicolor_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\base_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\base_sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\basic_file_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\daily_file_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\dist_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\dup_filter_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\hourly_file_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\mongo_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\msvc_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\null_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\ostream_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\qt_sinks.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\ringbuffer_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\rotating_file_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\stdout_color_sinks.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\stdout_sinks.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\syslog_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\systemd_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\tcp_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\win_eventlog_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\wincolor_sink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\async.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\async_logger.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\async_logger-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\common-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\formatter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\fwd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\logger.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\logger-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\pattern_formatter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\pattern_formatter-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\spdlog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\spdlog-inl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\stopwatch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\tweakme.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog\version.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\handler_tracking.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_descriptor_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_file_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_socket_service_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\null_event.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_event.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_mutex.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_serial_port_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_thread.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\scheduler.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\select_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\select_reactor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\service_registry.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\service_registry.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\signal_set_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\socket_ops.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_executor_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_executor_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\thread_context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\throw_error.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_event.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_file_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_io_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_io_context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_mutex.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_thread.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winsock_init.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\array.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\array_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\assert.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\atomic_count.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\base_from_cancellation_state.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\base_from_completion_cond.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\bind_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\blocking_executor_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffer_resize_guard.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffered_stream_storage.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\bulk_executor_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\call_stack.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\chrono.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\chrono_time_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\completion_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\concurrency_hint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\conditionally_enabled_event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\conditionally_enabled_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\config.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\consuming_buffers.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\cstddef.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\cstdint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\date_time_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\deadline_timer_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\dependent_type.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_ops.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_read_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_write_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\dev_poll_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\epoll_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\executor_function.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\executor_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\fd_set_adapter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\functional.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\future.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_arm_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_hppa_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_sync_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_x86_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\global.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_cont_helpers.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_invoke_helpers.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_tracking.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_type_requirements.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_work.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\hash_map.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_control.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_object_impl.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_read_at_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_read_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_write_at_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_write_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_file_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_null_buffers_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_accept_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_connect_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recv_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recvfrom_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recvmsg_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_send_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_sendto_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_service_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_wait_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\is_buffer_sequence.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\is_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\kqueue_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\limits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\macos_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\memory.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\non_const_lvalue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\noncopyable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_global.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_signal_blocker.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_socket_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_static_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_tss_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\object_pool.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\op_queue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\pop_options.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_global.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_serial_port_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_signal_blocker.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_static_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_tss_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\push_options.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_wait_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor_op_queue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\recycling_allocator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\regex_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_query_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolver_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolver_service_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_task.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_thread_info.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scoped_lock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scoped_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\select_interrupter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\select_reactor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\service_registry.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_blocker.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_init.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_set_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_holder.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_ops.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_option.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_select_interrupter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_types.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\solaris_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\source_location.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\static_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_global.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_static_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\strand_executor_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\strand_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\string_view.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_group.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_info_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\throw_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\throw_exception.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_ptime.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_set.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_scheduler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\tss_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\type_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\variadic_templates.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wait_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wait_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_event.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_fenced_block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_global.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_file_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_io_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_wait_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_object_handle_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_static_mutex.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_tss_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winapp_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wince_thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_async_manager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_async_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_resolve_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_resolver_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_utils.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winsock_init.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\work_dispatcher.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wrapped_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_invocable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_receiver.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\bulk_sender.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\submit_receiver.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\void_receiver.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\impl\bad_executor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\impl\receiver_invocation_error.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\allocator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\any_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bad_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\blocking.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\blocking_adaptation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bulk_execute.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bulk_guarantee.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\connect.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\context_as.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\execute.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\invocable_archetype.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\mapping.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\occupancy.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\operation_state.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\outstanding_work.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\prefer_only.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\receiver.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\receiver_invocation_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\relationship.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\schedule.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\scheduler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\sender.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_done.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_value.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\start.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\submit.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\impl\channel_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_handler.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_message.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_operation.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_payload.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_receive_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_send_functions.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_send_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\completion_handler_erasure.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\coro_promise_allocator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\has_signature.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\partial_promise.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\append.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\as_single.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\as_tuple.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\channel_error.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\coro.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\deferred.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\parallel_group.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\prepend.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\promise.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\use_coro.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\append.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\as_single.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\as_tuple.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\awaitable_operators.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\basic_channel.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\basic_concurrent_channel.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\cancellation_condition.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\co_spawn.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\concurrent_channel.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\coro.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\coro_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\deferred.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\parallel_group.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\prepend.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\promise.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\use_coro.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\detail\impl\endpoint.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\detail\endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\basic_endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\datagram_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\raw_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\seq_packet_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\stream_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\any_io_executor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\awaitable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\buffered_read_stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\buffered_write_stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\cancellation_signal.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\co_spawn.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\compose.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect_pipe.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\defer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\detached.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\dispatch.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\error.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\error_code.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\execution_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\execution_context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\executor.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\handler_alloc_hook.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\io_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\io_context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\multiple_exceptions.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\post.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read_at.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read_until.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\redirect_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\serial_port_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\serial_port_base.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\spawn.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\src.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\thread_pool.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\thread_pool.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\use_awaitable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\use_future.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\write.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\write_at.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\impl\endpoint.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\socket_option.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v4.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v4.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v6.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v6.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\basic_endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\host_name.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v4.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v4.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v6.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v6.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4_iterator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4_range.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6_iterator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6_range.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\bad_address_cast.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_entry.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_iterator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_query.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_results.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\host_name.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\icmp.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\multicast.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\network_v4.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\network_v6.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\resolver_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\resolver_query_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\tcp.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\udp.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\unicast.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\v6_only.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\detail\impl\endpoint.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\detail\endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\basic_endpoint.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\connect_pair.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\datagram_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\stream_protocol.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\basic_descriptor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\basic_stream_descriptor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\descriptor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\descriptor_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\stream_descriptor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\impl\engine.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\impl\openssl_init.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\buffered_handshake_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\engine.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\handshake_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\io.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\openssl_init.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\openssl_types.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\password_callback.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\read_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\shutdown_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\stream_core.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\verify_callback.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\write_op.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\context.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\error.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\host_name_verification.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\rfc2818_verification.ipp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\src.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\context_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\host_name_verification.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\rfc2818_verification.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\stream_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\verify_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\verify_mode.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\bulk_execute_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\bulk_execute_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\connect_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\connect_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\equality_comparable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\execute_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\execute_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\prefer_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\prefer_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_static_constexpr_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_concept_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_concept_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\schedule_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\schedule_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_done_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_done_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_error_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_error_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_value_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_value_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\start_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\start_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_query.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_require.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_require_concept.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\submit_free.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\submit_member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\buffer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\internet.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\io_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\net.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\netfwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_object_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_overlapped_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_random_access_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_stream_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\object_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\overlapped_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\overlapped_ptr.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\random_access_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\stream_handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\any_io_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_allocator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_cancellation_slot.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\async_result.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\awaitable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_datagram_socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_deadline_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_file.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_io_object.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_random_access_file.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_raw_socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_readable_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_seq_packet_socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_serial_port.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_signal_set.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_acceptor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_iostream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_streambuf.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_stream_file.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_stream_socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_streambuf.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_streambuf_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_waitable_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_writable_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\bind_cancellation_slot.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\bind_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffer_registration.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_read_stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_read_stream_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_stream_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_write_stream.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_write_stream_fwd.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffers_iterator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_signal.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_state.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_type.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\co_spawn.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\completion_condition.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\compose.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\connect.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\connect_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\coroutine.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\deadline_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\defer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detached.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\dispatch.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\error_code.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\executor_work_guard.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\file_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_alloc_hook.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_continuation_hook.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_invoke_hook.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\high_resolution_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_context_strand.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_service.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_service_strand.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_applicable_property.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_read_buffered.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_write_buffered.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\multiple_exceptions.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\packaged_task.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\placeholders.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\post.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\prefer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\query.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\random_access_file.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read_at.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read_until.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\readable_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\redirect_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\registered_buffer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\require.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\require_concept.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\serial_port.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\serial_port_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\signal_set.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\socket_base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\spawn.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\static_thread_pool.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\steady_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\strand.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\stream_file.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\streambuf.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_context.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_error.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\this_coro.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\thread.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\thread_pool.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\time_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\unyield.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\use_awaitable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\use_future.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\uses_executor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\version.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\wait_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\writable_pipe.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\write.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\write_at.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\yield.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInclude.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libinclude.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
